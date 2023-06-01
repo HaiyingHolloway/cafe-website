@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!---------------------- icon ----------------------->
+  <link rel="icon" type="image/png" href="/coffee.png">
+  <!---------------------- custom css ----------------------->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Notcoffee</title>
+</head>
+
+<body>
+  <!-------------------- header start ------------------------>
+  <header>
+    <nav class="header__nav">
+      <div class="header__logo">
+        <h4>Notcoffee</h4>
+        <div class="header__logo-overlay"></div>
+      </div>
+
+      <ul class="header__menu">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#drinks">Drinks</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about-us">About us</a></li>
+        <li><img src="assets/search.svg" alt="search"></li>
+      </ul>
+
+      <!---------------------- mobile menu ----------------------->
+      <ul class="header__menu-mobile">
+        <li><img src="assets/menu.svg" alt="menu"></li>
+      </ul>
+    </nav>
+  </header>
+  <!-------------------- header end ------------------------>
+
+  <!-------------------- hero section start ------------------------>
+  <section class="hero">
+    <div class="hero-image">
+      <img src="assets/home.svg" alt="coffee" data-aos="fade-up" />
+      <h2 data-aos="fade-up">
+        咖 <br />
+        啡 <br />
+        馆
+      </h2>
+
+      <div class="hero-image__overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-content-info" data-aos="fade-left">
+        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur eum nam possimus qui.</p>
+
+        <div class="hero-content__buttons">
+          <button class="hero-content__order-button">Order Now</button>
+          <button class="hero-content__play-button">
+            <img src="assets/play-circle.svg" alt="play" />
+            How to Order
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-content__testimonial" data-aos="fade-up">
+        <div class="hero-content__customer flex-center">
+          <h4>24<span>k+</span></h4>
+          <p>Happy Customers</p>
+        </div>
+
+        <div class="hero-content__review">
+          <img src="assets/user.png" alt="user" />
+          <p>"这是我去过的最好的咖啡馆，很好的咖啡很好的服务，推荐！"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------------------- hero section end ------------------------>
+
+  <!-------------------- about section start ------------------------>
+  <section class="about-us" id="about-us">
+    <div class="about-us__image">
+      <div class="about-us__image-coffee1">
+        <img src="assets/coffee1.png" alt="sushi" data-aos="fade-right" />
+      </div>
+
+      <button class="about-us__button">
+        Learn More
+
+        <img src="assets/arrow-up-right.svg" alt="learn more" />
+      </button>
+
+      <div class="about-us__image-drink1">
+        <img src="assets/drink1.png" alt="sushi" data-aos="fade-right" />
+      </div>
+    </div>
+
+    <div class="about-us__content" data-aos="fade-left">
+      <p class="cafe__subtitle">About Us / 关于我们</p>
+      <h3 class="cafe__title">Lorem ipsum dolor amet consectetur adipisicing elit.</h3>
+      <p class="cafe__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit alias impedit
+        officia nulla nemo ipsam. Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </section>
+  <!-------------------- about section end ------------------------>
+
+  <!-------------------- popular section start ------------------------>
+  <section class="popular-foods" id="menu">
+    <h2 class="popular-foods__title" data-aos="flip-up">Popular Drinks / 人气饮品</h2>
+
+    <div class="popular-foods__filters sushi__hide-scrollbar" data-aos="fade-up">
+      <button class="popular-foods__filter-btn active">All</button>
+      <button class="popular-foods__filter-btn">
+        <img src="/assets/tea.png" alt="sushi 9" />
+        Tea
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="/assets/coffee1.png" alt="sushi 8" />
+        Coffee
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="/assets/drink2.svg" alt="sushi 7" />
+        Drinks
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="/assets/softdrink.svg" alt="sushi 6" />
+        Soft drinks
+      </button>
+      <button class="popular-foods__filter-btn">Other</button>
+    </div>
+
+    <div class="popular-foods__catalogue" data-aos="fade-up">
+      <article class="popular-foods__card">
+        <img class="popular-foods__card-image" src="assets/drink3.svg" alt="sushi-12" />
+        <h4 class="popular-foods__card-title">Bajiao tea</h4>
+
+        <div class="popular-foods__card-details flex-between">
+          <div class="popular-foods__card-rating">
+            <img src="assets/star.svg" alt="star" />
+            <p>4.9</p>
+          </div>
+
+          <p class="popular-foods__card-price">$21.00</p>
+        </div>
+      </article>
+
+      <article class="popular-foods__card active-card">
+        <img class="popular-foods__card-image" src="assets/coffee3.svg" alt="sushi-11" />
+        <h4 class="popular-foods__card-title">Iced coffee</h4>
+
+        <div class="popular-foods__card-details flex-between">
+          <div class="popular-foods__card-rating">
+            <img src="assets/star.svg" alt="star" />
+            <p>5.0</p>
+          </div>
+
+          <p class="popular-foods__card-price">$19.00</p>
+        </div>
+      </article>
+
+      <article class="popular-foods__card">
+        <img class="popular-foods__card-image" src="assets/drink4.svg" alt="sushi-10" />
+        <h4 class="popular-foods__card-title">BoHe</h4>
+
+        <div class="popular-foods__card-details flex-between">
+          <div class="popular-foods__card-rating">
+            <img src="assets/star.svg" alt="star" />
+            <p>4.7</p>
+          </div>
+
+          <p class="popular-foods__card-price">$13.00</p>
+        </div>
+      </article>
+    </div>
+
+    <button class="popular-foods__button">
+      Explore Drinks
+      <img src="assets/arrow-right.svg" alt="arrow-right" />
+    </button>
+  </section>
+  <!-------------------- popular section end ------------------------>
+
+  <!-------------------- trending section start ------------------------>
+  <section class="trending" id="drinks">
+    <section class="trending-coffee">
+      <div class="trending__content" data-aos="fade-right">
+        <p class="cafe__subtitle">What’s Trending / 流行</p>
+
+        <h3 class="cafe__title">Lorem ipsum
+        </h3>
+        <p class="cafe__description">Feel the taste of the most delicious coffee here.
+        </p>
+
+        <ul class="trending__list flex-between">
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Lorem ipsum</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Lorem ipsum</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Lorem ipsum</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Lorem ipsum</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Lorem ipsum</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Lorem ipsum</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="trending__image flex-center">
+        <img src="assets/coffee2.svg" alt="sushi-5" data-aos="fade-left" />
+
+        <div class="trending__arrow trending__arrow-left">
+          <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+        </div>
+
+        <div class="trending__arrow trending__arrow-bottom">
+          <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+        </div>
+      </div>
+
+    </section>
+
+    <div class="trending__discover" data-aos="zoom-in">
+      <p>Discover</p>
+    </div>
+
+    <section class="trending-drink">
+      <div class="trending__image flex-center">
+        <img src="assets/drink2.svg" alt="sushi-4" data-aos="fade-right" />
+
+        <div class="trending__arrow trending__arrow-top">
+          <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+        </div>
+
+        <div class="trending__arrow trending__arrow-right">
+          <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+        </div>
+      </div>
+
+      <div class="trending__content" data-aos="fade-left">
+        <p class="cafe__subtitle">What’s Trending / 流行饮品</p>
+
+        <h3 class="cafe__title">Lorem ipsum
+        </h3>
+        <p class="cafe__description">Feel the taste of the most delicious drinks here.
+        </p>
+
+        <ul class="trending__list flex-between">
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Oruncha</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>
+              Sakura Tea</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Aojiru</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Ofukucha</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Kombu-cha</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Mugicha</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </section>
+  <!-------------------- trending section end ------------------------>
+
+  <!-------------------- subscribe section start ------------------------>
+  <section class="subscription flex-center" id="services">
+    <h2 data-aos="flip-down">
+      Get offers stright <br />
+      to your inbox
+    </h2>
+    <p data-aos="fade-up">Sign up for the Notcoffee newsletter</p>
+
+    <div class="subscription__form" data-aos="fade-up">
+      <input type="text" placeholder="Enter your email address" />
+      <button>Get Started</button>
+    </div>
+  </section>
+  <!-------------------- subscribe section end ------------------------>
+
+  <!-------------------- footer section start ------------------------>
+  <footer class="footer flex-between">
+    <h3 class="footer__logo">
+      <span>Not</span>coffee
+    </h3>
+
+    <ul class="footer__nav">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#drinks">Drinks</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about-us">About Us</a></li>
+    </ul>
+
+    <ul class="footer__social">
+      <li class="flex-center">
+        <img src="assets/facebook.svg" alt="facebook" />
+      </li>
+      <li class="flex-center">
+        <img src="assets/instagram.svg" alt="instagram" />
+      </li>
+      <li class="flex-center">
+        <img src="assets/twitter.svg" alt="twitter" />
+      </li>
+    </ul>
+  </footer>
+  <!-------------------- footer section end ------------------------>
+
+
+  <!---------------------- custom js ----------------------->
+  <script src="js/script.js" type="module"></script>
+</body>
+
+</html>
